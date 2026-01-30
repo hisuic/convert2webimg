@@ -1,0 +1,17 @@
+{
+  "name": "photo500",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "photo500": "tsx photo500.ts"
+  },
+  "dependencies": {
+    "fast-glob": "^3.3.2",
+    "sharp": "^0.33.5"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.5"
+  }
+}
