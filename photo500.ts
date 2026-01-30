@@ -13,7 +13,7 @@ type Options = {
 };
 
 const DEFAULTS: Options = {
-  inputDir: ".",
+  inputDir: "input",
   outputDir: "output",
   width: 500,
   quality: 75,

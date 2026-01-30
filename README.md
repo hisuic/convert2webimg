@@ -10,7 +10,7 @@ npm install
 
 ## Usage
 
-Run with defaults (input: current directory, output: ./output):
+Run with defaults (input: ./input, output: ./output):
 
 ```bash
 npm run photo500
@@ -36,7 +36,7 @@ npm run photo500 -- --force
 
 ## Options
 
-- `--in <dir>` input directory (default `.`)
+- `--in <dir>` input directory (default `input`)
 - `--out <dir>` output directory (default `output`)
 - `--width <number>` resize width (default `500`)
 - `--quality <number>` WebP quality 1-100 (default `75`)
