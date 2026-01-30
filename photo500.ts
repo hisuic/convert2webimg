@@ -112,7 +112,6 @@ async function main(): Promise<void> {
 
       const pipeline = sharp(file, { failOnError: false }).resize({
         width: opts.width,
-        withoutEnlargement: true,
       });
 
       await pipeline.webp({ quality: opts.quality }).toFile(outputFile);
